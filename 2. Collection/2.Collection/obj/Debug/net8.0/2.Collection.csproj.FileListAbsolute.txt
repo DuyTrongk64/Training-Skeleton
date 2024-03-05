@@ -1,0 +1,14 @@
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\bin\Debug\net8.0\2.Collection.exe
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\bin\Debug\net8.0\2.Collection.deps.json
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\bin\Debug\net8.0\2.Collection.runtimeconfig.json
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\bin\Debug\net8.0\2.Collection.dll
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\bin\Debug\net8.0\2.Collection.pdb
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.AssemblyInfo.cs
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.dll
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\refint\2.Collection.dll
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.pdb
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.genruntimeconfig.cache
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\ref\2.Collection.dll
