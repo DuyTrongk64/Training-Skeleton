@@ -10,41 +10,30 @@ namespace PrimitiveTypes
     {
         public String5(string input)
         {
-            if (input == null)
+            String1 str1 = new String1();
+            switch (str1.CheckString(input))
             {
-                Console.WriteLine("Chuoi bị null");
-            }
-            else if (input == "")
-            {
-                Console.WriteLine("Chuoi rong");
-            }
-            else
-            {
-                int cout = 0;
+                case 1:
+                    Console.WriteLine("Chuoi bị null");
+                    break;
 
-                for (int i = 0; i < input.Length; i++)
-                {
-                    if (input[i] != ' ')
-                    {
-                        cout++;
-                        continue;
-                    }
-                }
+                case 2:
+                    Console.WriteLine("Chuoi rong");
+                    break;
 
-                if (cout != 0)
-                {
+                case 3:
+                    Console.WriteLine("Chuoi Space");
+                    break;
+
+                case 4:
                     int coutSpace = 0;
                     for (int i = 0; i < input.Length; i++)
                     {
                         if (input[i] == ' ') coutSpace++;
                     }
 
-                    Console.WriteLine($"Có {cout} ký tự space");
-                }
-                else
-                {
-                    Console.WriteLine("Chuoi Space");
-                }
+                    Console.WriteLine($"Có {coutSpace} ký tự space");
+                    break;
             }
         }
     }

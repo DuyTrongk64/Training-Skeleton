@@ -7,38 +7,64 @@ namespace PrimitiveTypes
 {
     class String1
     {
-        public String1(string input) {
-            if (input == null)
+        public int CheckString(string input)
+        {
+            try
             {
-                Console.WriteLine("Chuoi bị null");
-            }
-            else if (input == "")
-            {
-                Console.WriteLine("Chuoi rong");
-            }
-            else
-            {
-                int cout = 0;
-
-                for (int i = 0; i < input.Length; i++)
+                if (input == "")
                 {
-                    if (input[i] != ' ')
-                    {
-                        cout++;
-                        continue;
-                    }
-                }
-
-                if (cout != 0)
-                {
-                    Console.WriteLine(input);
+                    return 2;
                 }
                 else
                 {
-                    Console.WriteLine("Chuoi Space");
+                    int cout = 0;
+
+                    for (int i = 0; i < input.Length; i++)
+                    {
+                        if (input[i] != ' ')
+                        {
+                            cout++;
+                            continue;
+                        }
+                    }
+
+                    if (cout != 0)
+                    {
+                        return 4;
+                    }
+                    else
+                    {
+                        return 3;
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                return 1;
+            }
         }
-        
+
+        public String1() { }
+        public String1(string input)
+        {
+            switch(CheckString(input))
+            {
+                case 1:
+                    Console.WriteLine("Chuoi bị null");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Chuoi rong");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Chuoi Space");
+                    break;
+
+                case 4:
+                    Console.WriteLine(input);
+                    break;
+            }
+        }
     }
 }

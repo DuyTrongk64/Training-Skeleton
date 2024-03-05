@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\",
+  "WorkspaceRootPath": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\date11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:date11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\date9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:date9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\date8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:date8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\date7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:date7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\date2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:date2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\admin\\documents\\training skeleton\\1\\1.string\\date6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:date6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|c:\\users\\trong\\onedrive\\documents\\code\\training-skeleton\\1. primitive types\\1.string\\string3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750781F-256F-4F82-A1E9-6EBC516101BC}|1.String.csproj|solutionrelative:string3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Project.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\Project.cs",
               "RelativeDocumentMoniker": "Project.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Project.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\Project.cs",
               "RelativeToolTip": "Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAADwvz8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T09:55:54.726Z",
               "IsPinned": true,
@@ -56,85 +60,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Date11.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date11.cs",
-              "RelativeDocumentMoniker": "Date11.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date11.cs",
-              "RelativeToolTip": "Date11.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:17:25.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Date9.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date9.cs",
-              "RelativeDocumentMoniker": "Date9.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date9.cs",
-              "RelativeToolTip": "Date9.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Title": "String7.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String7.cs",
+              "RelativeDocumentMoniker": "String7.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String7.cs",
+              "RelativeToolTip": "String7.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:16:08.923Z",
+              "WhenOpened": "2024-03-05T15:42:18.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Date8.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date8.cs",
-              "RelativeDocumentMoniker": "Date8.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date8.cs",
-              "RelativeToolTip": "Date8.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Title": "String6.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String6.cs",
+              "RelativeDocumentMoniker": "String6.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String6.cs",
+              "RelativeToolTip": "String6.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA2wCYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:12:56.118Z",
+              "WhenOpened": "2024-03-05T15:41:03.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Date7.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date7.cs",
-              "RelativeDocumentMoniker": "Date7.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date7.cs",
-              "RelativeToolTip": "Date7.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "String5.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String5.cs",
+              "RelativeDocumentMoniker": "String5.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String5.cs",
+              "RelativeToolTip": "String5.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:11:04.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T15:40:20.504Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Date2.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date2.cs",
-              "RelativeDocumentMoniker": "Date2.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date2.cs",
-              "RelativeToolTip": "Date2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Title": "String4.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String4.cs",
+              "RelativeDocumentMoniker": "String4.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String4.cs",
+              "RelativeToolTip": "String4.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:10:53.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T15:39:46.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "String3.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String3.cs",
+              "RelativeDocumentMoniker": "String3.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String3.cs",
+              "RelativeToolTip": "String3.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswCAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T15:39:15.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "String2.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String2.cs",
+              "RelativeDocumentMoniker": "String2.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String2.cs",
+              "RelativeToolTip": "String2.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T15:27:53.565Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Date6.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date6.cs",
-              "RelativeDocumentMoniker": "Date6.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\1\\1.String\\Date6.cs",
-              "RelativeToolTip": "Date6.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIBAwBQAAAAyAAAA",
+              "Title": "String1.cs",
+              "DocumentMoniker": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String1.cs",
+              "RelativeDocumentMoniker": "String1.cs",
+              "ToolTip": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\String1.cs",
+              "RelativeToolTip": "String1.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA2wC4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:06:51.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-03-05T15:06:31.18Z"
             }
           ]
         }

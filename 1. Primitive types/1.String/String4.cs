@@ -10,29 +10,22 @@ namespace PrimitiveTypes
     {
         public String4(string input)
         {
-            if (input == null)
+            String1 str1 = new String1();
+            switch (str1.CheckString(input))
             {
-                Console.WriteLine("Chuoi bị null");
-            }
-            else if (input == "")
-            {
-                Console.WriteLine("Chuoi rong");
-            }
-            else
-            {
-                int cout = 0;
+                case 1:
+                    Console.WriteLine("Chuoi bị null");
+                    break;
 
-                for (int i = 0; i < input.Length; i++)
-                {
-                    if (input[i] != ' ')
-                    {
-                        cout++;
-                        continue;
-                    }
-                }
+                case 2:
+                    Console.WriteLine("Chuoi rong");
+                    break;
 
-                if (cout != 0)
-                {
+                case 3:
+                    Console.WriteLine("Chuoi Space");
+                    break;
+
+                case 4:
                     for (int i = 0; i < input.Length; i++)
                     {
                         if (input[i] != ' ' && input[i - 1] == ' ')
@@ -42,11 +35,7 @@ namespace PrimitiveTypes
                         }
                         Console.Write(input[i]);
                     }
-                }
-                else
-                {
-                    Console.WriteLine("Chuoi Space");
-                }
+                    break;
             }
         }
     }
