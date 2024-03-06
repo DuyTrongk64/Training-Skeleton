@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StringTut;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +14,8 @@ namespace PrimitiveTypes
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime tenDaysAgo = date.AddDays(-10);
-
-                Console.WriteLine($"10 ngày trước là thứ {tenDaysAgo.DayOfWeek}") ;
+                Date2 date2 = new Date2();
+                Console.WriteLine($"10 ngày trước là {date2.ConvertDayOfWeekToVietnamese(tenDaysAgo.DayOfWeek)}") ;
             }
         }
     }

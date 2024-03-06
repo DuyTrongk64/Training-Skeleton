@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StringTut;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +14,8 @@ namespace PrimitiveTypes
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime lastDayOfYear = new DateTime(date.Year, 12, DateTime.DaysInMonth(date.Year, 12));
-
-                Console.WriteLine($"Ngày cuối năm là thứ {lastDayOfYear.DayOfWeek}");
+                Date2 date2 = new Date2();
+                Console.WriteLine($"Ngày cuối năm là {date2.ConvertDayOfWeekToVietnamese(lastDayOfYear.DayOfWeek)}");
             }
         }
     }

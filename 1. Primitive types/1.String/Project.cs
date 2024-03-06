@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StringTut;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -283,9 +284,200 @@ namespace PrimitiveTypes
 
             Console.WriteLine("1.1.6. Input: 1 chuỗi.\r\nNếu chuỗi là chuỗi số Int32 -> Thông báo: Chuỗi số.\r\nNgược lai -> Thông báo: Không phải chuỗi số");
             Console.Write("Nhập chuỗi số: ");
-            number = Console.ReadLine();
+            do
+            {
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                check = str1.CheckString(input);
+                if (check == 1)
+                {
+                    Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
+                }
+            }
+            while (check == 1);
             Console.Write("Kết quả: ");
-            new Int6(number);
+            new Int6(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.2. Bool.");
+            Console.WriteLine("1.2.1. Input: 1 chuỗi.\r\nNếu chuỗi là “true” hoặc “false” -> Chuyển thành kiểu bool và thông báo: Chuỗi hợp lệ.\r\nNgược lai -> Thông báo: Không phải chuỗi bool");
+            Console.Write("Nhập chuỗi số: ");
+            do
+            {
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                check = str1.CheckString(input);
+                if (check == 1)
+                {
+                    Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
+                }
+            }
+            while (check == 1);
+            Console.Write("Kết quả: ");
+            new Bool1(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.3. Decimal.");
+            Console.WriteLine("1.3.1. Input: 1 chuỗi.\r\nNếu chuỗi là chuỗi số thực (gồm các số, dấu ngăn cách phần nghìn là “,”, dấu phân cách \r\nthập phân là “.”): Chuỗi hợp lệ.\r\nNgược lai -> Thông báo: Không phải chuỗi decimal\r\nVí dụ chuỗi hợp lệ: 100; 1,000,000; 1,000.5");
+            do
+            {
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                check = str1.CheckString(input);
+                if (check == 1)
+                {
+                    Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
+                }
+            }
+            while (check == 1);
+            Console.Write("Kết quả: ");
+            new Dec1(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.3.2. Input: số decimal.\r\nChuyển số input thành string và in ra màn hình theo định dạng dấu ngăn cách phần nghìn là \r\n“,”, dấu phân cách thập phân là “.”, làm tròn 02 số sau dấu thập phân");
+            do
+            {
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                Dec2 dec2 = new Dec2();
+                check_num = dec2.checkDecmial(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Dec2(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4. DateTime");
+            Console.WriteLine("1.4.1. Lấy ngày hôm nay\r\nThông báo: Hôm nay là thứ ..., tháng..., năm...");
+            Console.Write("Kết quả: ");
+            new Date1();
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.2. Input: 1 ngày.\r\nThông báo: Hôm nay là thứ ..., tháng..., năm...");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date2(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.3. Input: 1 ngày.\r\nThông báo: Hôm sau là thứ ..., tháng..., năm...");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date3(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.3. Input: 1 ngày.\r\nThông báo: Hôm  trước là thứ ..., tháng..., năm...");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date4(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.5. Input: 1 ngày.\r\nNếu là hôm nay -> Thông báo: Ngày hôm nay\r\nNếu là sau hôm nay -> Thông báo: Ngày tương lai\r\nNếu là trước hôm nay -> Thông báo: Ngày quá khứ\r\n");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date5(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.6. Nhập 1 ngày.\r\nHiển thị ngày dưới dạng: Ngày/tháng/năm. VD:18/03/2014\r\nHiển thị ngày dưới dạng: Năm/tháng/ngày. VD: 2014/03/18\r\nHiển thị ngày dưới dạng: Tháng/năm. VD: 03/2014\r\nHiển thị ngày dưới dạng: Tháng-năm. VD: 03-2014");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date6(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.7. Input: 1 ngày.\r\nHiển thị 10 ngày trước là thứ mấy\r\n");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date7(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.8. Input: 1 ngày.\r\nHiển thị cuối tháng này là thứ mấy");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date8(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.9. Input: 1 ngày.\r\nHiển thị cuối năm nay là thứ mấy");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+            new Date9(input);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.4.10. Input: 2 ngày.\r\nHiển thị 2 ngày này cách nhau bao nhiêu ngày\r\n");
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                input = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(input);
+            }
+            while (!check_num);
+
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                number = Console.ReadLine();
+                Date2 date2 = new Date2();
+                check_num = date2.checkDate(number);
+            }
+            while (!check_num);
+
+            Console.Write("Kết quả: ");
+            new Date11(input,number);
             Console.WriteLine("");
         }
     }

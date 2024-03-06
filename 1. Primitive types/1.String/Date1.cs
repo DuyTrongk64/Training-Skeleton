@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StringTut;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,8 +12,8 @@ namespace PrimitiveTypes
         public Date1()
         {
             DateTime today = DateTime.Today;
-
-            Console.WriteLine($"Hôm nay là thứ {today.DayOfWeek}, tháng {today.Month}, năm {today.Year}");
+            Date2 date2 = new Date2(); 
+            Console.WriteLine($"Hôm nay là {date2.ConvertDayOfWeekToVietnamese(today.DayOfWeek)}, tháng {today.Month}, năm {today.Year}");
         }
     }
 }
