@@ -7,7 +7,7 @@ namespace PrimitiveTypes
 {
     class String1
     {
-        public int CheckString(string input)
+        public static int CheckString(string input)
         {
             try
             {

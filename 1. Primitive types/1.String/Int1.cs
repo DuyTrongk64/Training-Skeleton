@@ -8,7 +8,7 @@ namespace PrimitiveTypes
 {
     internal class Int1
     {
-        public bool checkNumber(string number)
+        public static bool checkNumber(string number)
         {
             try
             {

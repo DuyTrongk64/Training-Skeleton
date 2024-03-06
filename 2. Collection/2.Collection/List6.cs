@@ -8,16 +8,17 @@ namespace Collection
 {
     internal class List6
     {
-        public List6(List<int> numberList, int numberX)
+        public List6(List<int> numberList, string numberX)
         {
+            int number = int.Parse(numberX);
             for (int i = 0; i < numberList.Count; i++)
             {
-                if (numberList[i] < numberX) numberList[i]+=numberX;
+                if (numberList[i] < number) numberList[i]+= number;
             }
 
-            foreach (int number in numberList)
+            foreach (int num in numberList)
             {
-                Console.Write(number + " ");
+                Console.Write(num + " ");
             }
         }
     }

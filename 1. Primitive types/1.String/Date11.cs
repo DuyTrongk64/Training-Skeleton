@@ -10,9 +10,9 @@ namespace PrimitiveTypes
     {
         public Date11(string inputDate1, string inputDate2)
         {
-            if (DateTime.TryParse(inputDate1, out DateTime date1) && DateTime.TryParse(inputDate2, out DateTime date2))
+            if (DateTime.TryParse(inputDate1, out DateTime date1) && DateTime.TryParse(inputDate2, out DateTime Date2))
             {
-                TimeSpan difference = date2.Subtract(date1);
+                TimeSpan difference = Date2.Subtract(date1);
 
                 Console.WriteLine($"Khoảng cách giữa 2 ngày là {difference.Days} ngày.");
             }

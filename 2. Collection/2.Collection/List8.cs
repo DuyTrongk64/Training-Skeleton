@@ -8,15 +8,17 @@ namespace Collection
 {
     internal class List8
     {
-        public List8(List<int> numberList, int numberX)
+        public List8(List<int> numberList, string numberX)
         {
+            int number = int.Parse(numberX);
+
             numberList.Reverse();
 
-            numberList.Add(numberX);
+            numberList.Add(number);
 
-            foreach (int number in numberList)
+            foreach (int num in numberList)
             {
-                Console.Write(number + " ");
+                Console.Write(num + " ");
             }
         }
     }

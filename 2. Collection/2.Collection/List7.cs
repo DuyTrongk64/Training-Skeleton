@@ -8,13 +8,14 @@ namespace Collection
 {
     internal class List7
     {
-        public List7(List<int> numberList, int numberX)
+        public List7(List<int> numberList, string numberX)
         {
-            numberList.Add(numberX);
+            int number = int.Parse(numberX);
+            numberList.Add(number);
 
-            foreach (int number in numberList)
+            foreach (int num in numberList)
             {
-                Console.Write(number + " ");
+                Console.Write(num + " ");
             }
         }
     }

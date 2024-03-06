@@ -8,16 +8,15 @@ namespace Collection
 {
     internal class List5
     {
-        public List5(List<int> numberList, int numberX)
+        public List5(List<int> numberList, string numberX)
         {
-            for (int i = 0; i < numberList.Count; i++)
-            {
-                if (numberList[i]%numberX==0) numberList.RemoveAt(i);
-            }
+            int number = int.Parse(numberX);
 
-            foreach (int number in numberList)
+            numberList.RemoveAll(num => num%number==0);
+
+            foreach (int num in numberList)
             {
-                Console.Write(number + " ");
+                Console.Write(num + " ");
             }
         }
     }

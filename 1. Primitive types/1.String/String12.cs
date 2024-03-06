@@ -10,8 +10,8 @@ namespace PrimitiveTypes
     {
         public String12(string input, string number)
         {
-            String1 str1 = new String1();
-            switch (str1.CheckString(input))
+            
+            switch (String1.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");

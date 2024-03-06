@@ -18,9 +18,6 @@ namespace PrimitiveTypes
             string input;
             string number;
 
-            String1 str1 = new String1();
-            Int1 int1 = new Int1();
-
             Console.OutputEncoding = Encoding.UTF8;
 
             Console.WriteLine("1. Primitive types");
@@ -73,7 +70,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi 1: ");
                 input1 = Console.ReadLine();
-                check = str1.CheckString(input1);
+                check = String1.CheckString(input1);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -85,7 +82,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi 2: ");
                 input2 = Console.ReadLine();
-                check = str1.CheckString(input2);
+                check = String1.CheckString(input2);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -101,7 +98,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi 1: ");
                 input1 = Console.ReadLine();
-                check = str1.CheckString(input1);
+                check = String1.CheckString(input1);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -112,7 +109,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi 2: ");
                 input2 = Console.ReadLine();
-                check = str1.CheckString(input2);
+                check = String1.CheckString(input2);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -149,7 +146,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi: ");
                 input = Console.ReadLine();
-                check = str1.CheckString(input);
+                check = String1.CheckString(input);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -160,7 +157,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
 
             } while (!check_num);
             Console.Write("Kết quả: ");
@@ -172,7 +169,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi: ");
                 input = Console.ReadLine();
-                check = str1.CheckString(input);
+                check = String1.CheckString(input);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -183,7 +180,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
 
             } while (!check_num);
             Console.Write("Kết quả: ");
@@ -195,7 +192,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi: ");
                 input = Console.ReadLine();
-                check = str1.CheckString(input);
+                check = String1.CheckString(input);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -206,7 +203,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
             } while (!check_num);
             Console.Write("Kết quả: ");
             new String14(input, number);
@@ -218,7 +215,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
             } while (!check_num);
             Console.Write("Kết quả: ");
             new Int1(number);
@@ -229,7 +226,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
             } while (!check_num);
             Console.Write("Kết quả: ");
             new Int2(number);
@@ -240,7 +237,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
             } while (!check_num);
             Console.Write("Kết quả: ");
             new Int3(number);
@@ -252,7 +249,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số thứ nhất: ");
                 number1 = Console.ReadLine();
-                check_num = int1.checkNumber(number1);
+                check_num = Int1.checkNumber(number1);
             } while (!check_num);
 
             string number2;
@@ -260,7 +257,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số thứ hai: ");
                 number2 = Console.ReadLine();
-                check_num = int1.checkNumber(number2);
+                check_num = Int1.checkNumber(number2);
                 if (check_num && int.Parse(number2) == 0)
                 {
                     Console.WriteLine("Vui lòng nhập mẫu số khác không!");
@@ -276,7 +273,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check_num = int1.checkNumber(number);
+                check_num = Int1.checkNumber(number);
             } while (!check_num);
             Console.Write("Kết quả: ");
             new Int5(number);
@@ -288,7 +285,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi: ");
                 input = Console.ReadLine();
-                check = str1.CheckString(input);
+                check = String1.CheckString(input);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -306,7 +303,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi: ");
                 input = Console.ReadLine();
-                check = str1.CheckString(input);
+                check = String1.CheckString(input);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -323,7 +320,7 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập chuỗi: ");
                 input = Console.ReadLine();
-                check = str1.CheckString(input);
+                check = String1.CheckString(input);
                 if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
@@ -358,8 +355,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -371,8 +368,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -384,8 +381,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -397,8 +394,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -410,8 +407,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -423,8 +420,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -436,8 +433,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -449,8 +446,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
             Console.Write("Kết quả: ");
@@ -462,8 +459,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 input = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(input);
+                
+                check_num = Date2.checkDate(input);
             }
             while (!check_num);
 
@@ -471,8 +468,8 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập ngày: ");
                 number = Console.ReadLine();
-                Date2 date2 = new Date2();
-                check_num = date2.checkDate(number);
+                
+                check_num = Date2.checkDate(number);
             }
             while (!check_num);
 

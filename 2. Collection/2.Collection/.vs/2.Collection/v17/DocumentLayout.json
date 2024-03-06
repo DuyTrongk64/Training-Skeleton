@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,97 +21,153 @@
     {
       "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\dict1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:dict1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\list5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:list5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 440,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Project.cs",
+              "RelativeToolTip": "Project.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAowA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:45:09.813Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dict1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Dict1.cs",
+              "RelativeDocumentMoniker": "Dict1.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Dict1.cs",
+              "RelativeToolTip": "Dict1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:13:12.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List9.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List9.cs",
+              "RelativeDocumentMoniker": "List9.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List9.cs",
+              "RelativeToolTip": "List9.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:56:00.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "List8.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List8.cs",
               "RelativeDocumentMoniker": "List8.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List8.cs",
               "RelativeToolTip": "List8.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T10:54:11.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "List7.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List7.cs",
               "RelativeDocumentMoniker": "List7.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List7.cs",
               "RelativeToolTip": "List7.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA1wAoAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA1wAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:51:40.533Z"
+              "WhenOpened": "2024-03-05T10:51:40.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "List6.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List6.cs",
               "RelativeDocumentMoniker": "List6.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List6.cs",
               "RelativeToolTip": "List6.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA1wBUAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA1wA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:50:30.164Z"
+              "WhenOpened": "2024-03-05T10:50:30.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "List5.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List5.cs",
               "RelativeDocumentMoniker": "List5.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List5.cs",
               "RelativeToolTip": "List5.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAA1wBUAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA1wAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:49:55.921Z"
+              "WhenOpened": "2024-03-05T10:49:55.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Project.cs",
-              "RelativeDocumentMoniker": "Project.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Project.cs",
-              "RelativeToolTip": "Project.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAowBUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:45:09.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "List4.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List4.cs",
               "RelativeDocumentMoniker": "List4.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List4.cs",
               "RelativeToolTip": "List4.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowBUAAAAJAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:43:44.9Z"
+              "WhenOpened": "2024-03-05T10:43:44.9Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,33 +177,46 @@
               "RelativeDocumentMoniker": "List3.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List3.cs",
               "RelativeToolTip": "List3.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:39:45.359Z"
+              "WhenOpened": "2024-03-05T10:39:45.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "List2.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List2.cs",
               "RelativeDocumentMoniker": "List2.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List2.cs",
               "RelativeToolTip": "List2.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:37:33.374Z"
+              "WhenOpened": "2024-03-05T10:37:33.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "List1.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List1.cs",
               "RelativeDocumentMoniker": "List1.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List1.cs",
               "RelativeToolTip": "List1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:32:25.882Z"
+              "WhenOpened": "2024-03-05T10:32:25.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

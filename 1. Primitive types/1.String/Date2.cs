@@ -8,7 +8,7 @@ namespace StringTut
 {
     internal class Date2
     {
-        public bool checkDate(string inputDate)
+        public static bool checkDate(string inputDate)
         {
             try
             {
@@ -27,7 +27,7 @@ namespace StringTut
             }
         }
 
-        public string ConvertDayOfWeekToVietnamese(DayOfWeek dayOfWeek)
+        public static string ConvertDayOfWeekToVietnamese(DayOfWeek dayOfWeek)
         {
             switch (dayOfWeek)
             {

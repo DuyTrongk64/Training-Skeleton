@@ -12,3 +12,4 @@ C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\
 C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.pdb
 C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.genruntimeconfig.cache
 C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\ref\2.Collection.dll
+C:\Users\admin\Documents\Training Skeleton\2. Collection\2.Collection\obj\Debug\net8.0\2.Collection.sourcelink.json

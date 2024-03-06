@@ -14,8 +14,8 @@ namespace PrimitiveTypes
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime lastDayOfYear = new DateTime(date.Year, 12, DateTime.DaysInMonth(date.Year, 12));
-                Date2 date2 = new Date2();
-                Console.WriteLine($"Ngày cuối năm là {date2.ConvertDayOfWeekToVietnamese(lastDayOfYear.DayOfWeek)}");
+                
+                Console.WriteLine($"Ngày cuối năm là {Date2.ConvertDayOfWeekToVietnamese(lastDayOfYear.DayOfWeek)}");
             }
         }
     }

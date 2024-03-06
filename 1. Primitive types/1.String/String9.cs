@@ -9,8 +9,8 @@ namespace PrimitiveTypes
     internal class String9
     {
         public String9(string input) {
-            String1 str1 = new String1();
-            switch (str1.CheckString(input))
+            
+            switch (String1.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");

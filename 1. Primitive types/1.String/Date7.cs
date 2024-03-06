@@ -14,8 +14,8 @@ namespace PrimitiveTypes
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime tenDaysAgo = date.AddDays(-10);
-                Date2 date2 = new Date2();
-                Console.WriteLine($"10 ngày trước là {date2.ConvertDayOfWeekToVietnamese(tenDaysAgo.DayOfWeek)}") ;
+                
+                Console.WriteLine($"10 ngày trước là {Date2.ConvertDayOfWeekToVietnamese(tenDaysAgo.DayOfWeek)}") ;
             }
         }
     }

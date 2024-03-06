@@ -14,8 +14,8 @@ namespace PrimitiveTypes
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime nextDay = date.AddDays(1);
-                Date2 date2 = new Date2();
-                Console.WriteLine($"Hôm sau là {date2.ConvertDayOfWeekToVietnamese(nextDay.DayOfWeek)}, tháng {nextDay.Month}, năm {nextDay.Year}");
+                
+                Console.WriteLine($"Hôm sau là {Date2.ConvertDayOfWeekToVietnamese(nextDay.DayOfWeek)}, tháng {nextDay.Month}, năm {nextDay.Year}");
             }
         }
     }

@@ -12,8 +12,8 @@ namespace PrimitiveTypes
         public Date1()
         {
             DateTime today = DateTime.Today;
-            Date2 date2 = new Date2(); 
-            Console.WriteLine($"Hôm nay là {date2.ConvertDayOfWeekToVietnamese(today.DayOfWeek)}, tháng {today.Month}, năm {today.Year}");
+             
+            Console.WriteLine($"Hôm nay là {Date2.ConvertDayOfWeekToVietnamese(today.DayOfWeek)}, tháng {today.Month}, năm {today.Year}");
         }
     }
 }
