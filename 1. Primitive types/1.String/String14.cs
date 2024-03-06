@@ -27,9 +27,8 @@ namespace PrimitiveTypes
 
                 case 4:
                     Int1 int1 = new Int1();
-                    int check = int1.checkNumber(number);
                     int num = int.Parse(number);
-                    if (check == -1)
+                    if (num<0)
                     {
                         Console.WriteLine(" Số nhỏ hơn 0");
                     }

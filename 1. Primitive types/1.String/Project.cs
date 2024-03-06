@@ -13,6 +13,7 @@ namespace PrimitiveTypes
         static void Main(string[] args)
         {
             int check = 0;
+            bool check_num;
             string input;
             string number;
 
@@ -20,7 +21,7 @@ namespace PrimitiveTypes
             Int1 int1 = new Int1();
 
             Console.OutputEncoding = Encoding.UTF8;
-       
+
             Console.WriteLine("1. Primitive types");
             Console.WriteLine("1.1. String");
             Console.WriteLine("1.1.1. Input: 1 chuỗi.\r\nNếu chuỗi null -> Thông báo: Chuỗi bị null\r\nNếu chuỗi không có ký tự nào -> Thông báo: Chuỗi rỗng\r\nNếu chuỗi toàn ký tự space -> Thông báo: Chuỗi Space\r\nCòn lại: In chuỗi ký tự ra màn hình");
@@ -67,12 +68,12 @@ namespace PrimitiveTypes
 
             Console.WriteLine("1.1.7. Input: 2 chuỗi đầu vào (input1, input2)\r\nNếu 2 chuỗi giống nhau (Phân biệt hoa thường) -> Hiển thị kết quả: Chuỗi [input1] giống \r\nchuỗi [input2]\r\nNgược lại, Hiển thị kết quả: Chuỗi \"input1\"khác chuỗi \"input2\"");
             string input1;
-            do 
+            do
             {
                 Console.Write("Nhập chuỗi 1: ");
                 input1 = Console.ReadLine();
                 check = str1.CheckString(input1);
-                if(check == 1)
+                if (check == 1)
                 {
                     Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
                 }
@@ -91,7 +92,7 @@ namespace PrimitiveTypes
             }
             while (check == 1);
             Console.Write("Kết quả: ");
-            new String7(input1,input2);
+            new String7(input1, input2);
             Console.WriteLine("");
 
             Console.WriteLine("1.1.8. Như 7 nhưng không phân biệt hoa thường\n");
@@ -158,14 +159,11 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check = int1.checkNumber(number);
-                if (check == -2)
-                {
-                    Console.WriteLine("Số không hợp lệ, xin vui lòng nhập lại!");
-                }
-            } while (check == -2);
+                check_num = int1.checkNumber(number);
+
+            } while (!check_num);
             Console.Write("Kết quả: ");
-            new String12(input,number);
+            new String12(input, number);
             Console.WriteLine("");
 
             Console.WriteLine("1.1.13. Như 12\r\nCòn lại: Bỏ các ký tự trắng ở đầu và cuối chuỗi, cắt lấy count ký tự ĐẦU và in kết quả ra \r\nmàn hình");
@@ -184,12 +182,9 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check = int1.checkNumber(number);
-                if (check == -2)
-                {
-                    Console.WriteLine("Số không hợp lệ, xin vui lòng nhập lại!");
-                }
-            } while (check == -2);
+                check_num = int1.checkNumber(number);
+
+            } while (!check_num);
             Console.Write("Kết quả: ");
             new String13(input, number);
             Console.WriteLine("");
@@ -210,14 +205,87 @@ namespace PrimitiveTypes
             {
                 Console.Write("Nhập số: ");
                 number = Console.ReadLine();
-                check = int1.checkNumber(number);
-                if (check == -2)
-                {
-                    Console.WriteLine("Số không hợp lệ, xin vui lòng nhập lại!");
-                }
-            } while (check == -2);
+                check_num = int1.checkNumber(number);
+            } while (!check_num);
             Console.Write("Kết quả: ");
             new String14(input, number);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.1. Int");
+            Console.WriteLine("1.1.1. Input: 1 số\r\nNếu số <= 0 -> Thông báo: Số <= 0\r\nCòn lại: Nếu là số chẵn -> Thông báo: Số chẵn\r\nNếu là số lẻ -> Thông báo: Số lẻ");
+            do
+            {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = int1.checkNumber(number);
+            } while (!check_num);
+            Console.Write("Kết quả: ");
+            new Int1(number);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.1.2. Input: 1 số (x)\r\nHiển thị trị tuyệt đối của x");
+            do
+            {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = int1.checkNumber(number);
+            } while (!check_num);
+            Console.Write("Kết quả: ");
+            new Int2(number);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.1.3. Input: 1 số\r\nNếu số <= 0 -> Thông báo: Số <= 0\r\nCòn lại: Hiển thị 2 mũ x");
+            do
+            {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = int1.checkNumber(number);
+            } while (!check_num);
+            Console.Write("Kết quả: ");
+            new Int3(number);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.1.4. Input: 2 số (X, Y) \r\nHiển thị kết quả: X chia Y bằng ... dư...");
+            string number1;
+            do
+            {
+                Console.Write("Nhập số thứ nhất: ");
+                number1 = Console.ReadLine();
+                check_num = int1.checkNumber(number1);
+            } while (!check_num);
+
+            string number2;
+            do
+            {
+                Console.Write("Nhập số thứ hai: ");
+                number2 = Console.ReadLine();
+                check_num = int1.checkNumber(number2);
+                if (check_num && int.Parse(number2) == 0)
+                {
+                    Console.WriteLine("Vui lòng nhập mẫu số khác không!");
+                }
+            } while (!check_num || int.Parse(number2) == 0);
+
+            Console.Write("Kết quả: ");
+            new Int4(number1, number2);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.1.5. Input: 1 số\r\nNếu số <= 0 -> Thông báo: Số <= 0\r\nCòn lại: Nếu là số nguyên tố -> Thông báo: Số nguyên tố, ngược lại thông báo “Không phải số nguyên tố\r\n");
+            do
+            {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = int1.checkNumber(number);
+            } while (!check_num);
+            Console.Write("Kết quả: ");
+            new Int5(number);
+            Console.WriteLine("");
+
+            Console.WriteLine("1.1.6. Input: 1 chuỗi.\r\nNếu chuỗi là chuỗi số Int32 -> Thông báo: Chuỗi số.\r\nNgược lai -> Thông báo: Không phải chuỗi số");
+            Console.Write("Nhập chuỗi số: ");
+            number = Console.ReadLine();
+            Console.Write("Kết quả: ");
+            new Int6(number);
             Console.WriteLine("");
         }
     }

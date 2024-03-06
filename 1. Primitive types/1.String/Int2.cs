@@ -8,9 +8,11 @@ namespace PrimitiveTypes
 {
     internal class Int2
     {
-        public Int2(int number)
+        public Int2(string number)
         {
-            Console.WriteLine(Math.Abs(number));
+            Int1 int1 = new Int1();   
+            int num = int.Parse(number);
+            Console.WriteLine(Math.Abs(num));
         }
     }
 }

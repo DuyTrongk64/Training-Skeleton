@@ -8,16 +8,18 @@ namespace PrimitiveTypes
 {
     internal class Int5
     {
-        public Int5(int number)
+        public Int5(string number)
         {
-            if (number <= 0) Console.WriteLine("Số <=0");
+            Int1 int1 = new Int1();
+            int num = int.Parse(number);
+            if (num <= 0) Console.WriteLine("Số <=0");
 
-            if (number <2 ) Console.WriteLine("Không phải số nguyên tố");
+            if (num < 2 ) Console.WriteLine("Không phải số nguyên tố");
             else
             {
-                for (int i = 2; i <= Math.Sqrt(number); i++)
+                for (int i = 2; i <= Math.Sqrt(num); i++)
                 {
-                    if (number % i == 0)
+                    if (num % i == 0)
                     {
                         Console.WriteLine("Không phải số nguyên tố");
                         return;

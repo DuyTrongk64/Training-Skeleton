@@ -46,11 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -75,8 +79,7 @@
               "RelativeToolTip": "List7.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAA1wAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:51:40.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:51:40.533Z"
             },
             {
               "$type": "Document",
@@ -88,8 +91,7 @@
               "RelativeToolTip": "List6.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAA1wBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:50:30.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:50:30.164Z"
             },
             {
               "$type": "Document",
@@ -101,8 +103,7 @@
               "RelativeToolTip": "List5.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAA1wBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:49:55.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:49:55.921Z"
             },
             {
               "$type": "Document",
@@ -114,8 +115,7 @@
               "RelativeToolTip": "Project.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAowBUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:45:09.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:45:09.813Z"
             },
             {
               "$type": "Document",
@@ -127,8 +127,7 @@
               "RelativeToolTip": "List4.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAowBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:43:44.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:43:44.9Z"
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "RelativeToolTip": "List3.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:39:45.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:39:45.359Z"
             },
             {
               "$type": "Document",
@@ -153,8 +151,7 @@
               "RelativeToolTip": "List2.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:37:33.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:37:33.374Z"
             },
             {
               "$type": "Document",
@@ -166,8 +163,7 @@
               "RelativeToolTip": "List1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:32:25.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:32:25.882Z"
             }
           ]
         }
