@@ -26,7 +26,7 @@ namespace PrimitiveTypes
                     break;
 
                 case 4:
-                    for (int i = 0; i < input.Length; i++)
+                    for (int i = 1; i < input.Length; i++)
                     {
                         if (input[i] != ' ' && input[i - 1] == ' ')
                         {

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\trong\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\1.String.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\Training Skeleton\\1. Primitive types\\1.String\\1.String.csproj",
       "projectName": "1.String",
-      "projectPath": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\1.String.csproj",
-      "packagesPath": "C:\\Users\\trong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trong\\OneDrive\\Documents\\code\\Training-Skeleton\\1. Primitive types\\1.String\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\1. Primitive types\\1.String\\1.String.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\1. Primitive types\\1.String\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\trong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

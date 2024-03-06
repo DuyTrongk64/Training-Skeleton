@@ -8,45 +8,40 @@ namespace PrimitiveTypes
 {
     internal class String12
     {
-        public String12(string input, int number)
+        public String12(string input, string number)
         {
-            if (input == null)
+            String1 str1 = new String1();
+            switch (str1.CheckString(input))
             {
-                Console.WriteLine("Chuoi bị null");
-            }
-            else if (input == "")
-            {
-                Console.WriteLine("Chuoi rong");
-            }
-            else
-            {
-                int cout = 0;
+                case 1:
+                    Console.WriteLine("Chuoi bị null");
+                    break;
 
-                for (int i = 0; i < input.Length; i++)
-                {
-                    if (input[i] != ' ')
+                case 2:
+                    Console.WriteLine("Chuoi rong");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Chuoi Space");
+                    break;
+
+                case 4:
+                    Int1 int1 = new Int1();
+                    int check = int1.checkNumber(number);
+                    int num = int.Parse(number);
+                    if (check == -1)
                     {
-                        cout++;
-                        continue;
+                        Console.WriteLine(" Số nhỏ hơn 0");
                     }
-                }
-
-                if (cout != 0)
-                {
-                    if (number < 0) Console.WriteLine(" Số nhỏ hơn 0");
                     else
                     {
                         input = input.TrimStart();
-                        for (int i = 0; i < number; i++)
-                        {
-                            Console.Write(input[i]);    
-                        }
+                        if(input.Length < num)
+                            Console.Write($" Bỏ các ký tự trắng ở đầu chuỗi, lấy {num} ký tự đầu của dãy bạn vừa nhập là: {input}");
+                        else
+                        Console.Write($" Bỏ các ký tự trắng ở đầu chuỗi, lấy {num} ký tự đầu của dãy bạn vừa nhập là: {input.Substring(0, num)}");
                     }
-                }
-                else
-                {
-                    Console.WriteLine("Chuoi Space");
-                }
+                    break;
             }
         }
     }
