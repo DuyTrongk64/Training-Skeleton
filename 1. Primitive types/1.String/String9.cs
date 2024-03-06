@@ -8,9 +8,14 @@ namespace PrimitiveTypes
 {
     internal class String9
     {
-        public String9(string input) {
-            
-            switch (String1.CheckString(input))
+        public String9()
+        {
+
+            string input;
+            Console.Write("Nhập chuỗi: ");
+            input = Console.ReadLine();
+            Console.Write("Kết quả: ");
+            switch (Tool.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");
@@ -29,7 +34,8 @@ namespace PrimitiveTypes
                     Console.WriteLine(replacedString);
                     break;
             }
-            
+            Console.WriteLine("");
+
         }
     }
 }

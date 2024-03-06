@@ -8,27 +8,19 @@ namespace PrimitiveTypes
 {
     internal class Int1
     {
-        public static bool checkNumber(string number)
+        public Int1()
         {
-            try
+            int check = 0;
+            bool check_num;
+            string input;
+            string number;
+            do
             {
-                int num = int.Parse(number);
-                return true;
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Định dạng không hợp lệ. Hãy nhập một số nguyên.");
-                return false;
-            }
-            catch (OverflowException)
-            {
-                Console.WriteLine("Số quá lớn hoặc quá nhỏ để được biểu diễn bởi kiểu int. Hãy nhập một số nguyên.");
-                return false;
-            }
-        }
-        public Int1() { }
-        public Int1(string number)
-        {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = Tool.checkNumber(number);
+            } while (!check_num);
+            Console.Write("Kết quả: ");
             int num = int.Parse(number);
             if (num <= 0) Console.WriteLine("Số <=0");
 

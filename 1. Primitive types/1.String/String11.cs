@@ -8,10 +8,13 @@ namespace PrimitiveTypes
 {
     internal class String11
     {
-        public String11(string input) {
+        public String11() {
 
-            
-            switch (String1.CheckString(input))
+            string input;
+            Console.Write("Nhập chuỗi: ");
+            input = Console.ReadLine();
+            Console.Write("Kết quả: ");
+            switch (Tool.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");
@@ -38,7 +41,7 @@ namespace PrimitiveTypes
                     Console.WriteLine(charArray);
                     break;
             }
-
+            Console.WriteLine("");
         }   
     }
 }

@@ -15,7 +15,7 @@ namespace PrimitiveTypes
             {
                 DateTime preDay = date.AddDays(1);
                 
-                Console.WriteLine($"Hôm trước là {Date2.ConvertDayOfWeekToVietnamese(preDay.DayOfWeek)}, tháng {preDay.Month}, năm {preDay.Year}");
+                Console.WriteLine($"Hôm trước là {Tool.ConvertDayOfWeekToVietnamese(preDay.DayOfWeek)}, tháng {preDay.Month}, năm {preDay.Year}");
             }
         }
     }

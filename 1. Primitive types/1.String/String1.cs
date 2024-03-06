@@ -7,47 +7,13 @@ namespace PrimitiveTypes
 {
     class String1
     {
-        public static int CheckString(string input)
+        public String1()
         {
-            try
-            {
-                if (input == "")
-                {
-                    return 2;
-                }
-                else
-                {
-                    int cout = 0;
-
-                    for (int i = 0; i < input.Length; i++)
-                    {
-                        if (input[i] != ' ')
-                        {
-                            cout++;
-                            continue;
-                        }
-                    }
-
-                    if (cout != 0)
-                    {
-                        return 4;
-                    }
-                    else
-                    {
-                        return 3;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                return 1;
-            }
-        }
-
-        public String1() { }
-        public String1(string input)
-        {
-            switch(CheckString(input))
+            string input;
+            Console.Write("Nhập chuỗi: ");
+            input = Console.ReadLine();
+            Console.Write("Kết quả: ");
+            switch (Tool.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");
@@ -65,6 +31,7 @@ namespace PrimitiveTypes
                     Console.WriteLine(input);
                     break;
             }
+            Console.WriteLine("");
         }
     }
 }

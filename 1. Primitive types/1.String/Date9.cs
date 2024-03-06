@@ -15,7 +15,7 @@ namespace PrimitiveTypes
             {
                 DateTime lastDayOfYear = new DateTime(date.Year, 12, DateTime.DaysInMonth(date.Year, 12));
                 
-                Console.WriteLine($"Ngày cuối năm là {Date2.ConvertDayOfWeekToVietnamese(lastDayOfYear.DayOfWeek)}");
+                Console.WriteLine($"Ngày cuối năm là {Tool.ConvertDayOfWeekToVietnamese(lastDayOfYear.DayOfWeek)}");
             }
         }
     }

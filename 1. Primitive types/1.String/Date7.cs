@@ -15,7 +15,7 @@ namespace PrimitiveTypes
             {
                 DateTime tenDaysAgo = date.AddDays(-10);
                 
-                Console.WriteLine($"10 ngày trước là {Date2.ConvertDayOfWeekToVietnamese(tenDaysAgo.DayOfWeek)}") ;
+                Console.WriteLine($"10 ngày trước là {Tool.ConvertDayOfWeekToVietnamese(tenDaysAgo.DayOfWeek)}") ;
             }
         }
     }

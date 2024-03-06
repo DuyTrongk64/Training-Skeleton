@@ -8,10 +8,13 @@ namespace PrimitiveTypes
 {
     internal class String5
     {
-        public String5(string input)
+        public String5()
         {
-            
-            switch (String1.CheckString(input))
+            string input;
+            Console.Write("Nhập chuỗi: ");
+            input = Console.ReadLine();
+            Console.Write("Kết quả: ");
+            switch (Tool.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");
@@ -35,6 +38,7 @@ namespace PrimitiveTypes
                     Console.WriteLine($"Có {coutSpace} ký tự space");
                     break;
             }
+            Console.WriteLine("");
         }
     }
 }

@@ -8,10 +8,32 @@ namespace PrimitiveTypes
 {
     internal class String14
     {
-        public String14(string input, string number)
+        public String14()
         {
-            
-            switch (String1.CheckString(input))
+            int check = 0;
+            bool check_num;
+            string input;
+            string number;
+            do
+            {
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                check = Tool.CheckString(input);
+                if (check == 1)
+                {
+                    Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
+                }
+            } while (check == 1);
+
+            do
+            {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = Tool.checkNumber(number);
+
+            } while (!check_num);
+            Console.Write("Kết quả: ");
+            switch (Tool.CheckString(input))
             {
                 case 1:
                     Console.WriteLine("Chuoi bị null");
@@ -36,9 +58,9 @@ namespace PrimitiveTypes
                     {
                         input = input.Trim();
                         if (input.Length < num)
-                            Console.Write($" Bỏ các ký tự trắng ở đầu và cuối chuỗi, lấy {num} ký tự cuối của dãy bạn vừa nhập là: {input}");
+                            Console.WriteLine($" Bỏ các ký tự trắng ở đầu và cuối chuỗi, lấy {num} ký tự cuối của dãy bạn vừa nhập là: {input}");
                         else
-                        Console.Write($" Bỏ các ký tự trắng ở đầu và cuối chuỗi, lấy {num} ký tự cuối của dãy bạn vừa nhập là: {input.Substring(input.Length- num, num)}");
+                        Console.WriteLine($" Bỏ các ký tự trắng ở đầu và cuối chuỗi, lấy {num} ký tự cuối của dãy bạn vừa nhập là: {input.Substring(input.Length- num, num)}");
                     }
                     break;
             }

@@ -13,7 +13,7 @@ namespace PrimitiveTypes
         {
             DateTime today = DateTime.Today;
              
-            Console.WriteLine($"Hôm nay là {Date2.ConvertDayOfWeekToVietnamese(today.DayOfWeek)}, tháng {today.Month}, năm {today.Year}");
+            Console.WriteLine($"Hôm nay là {Tool.ConvertDayOfWeekToVietnamese(today.DayOfWeek)}, tháng {today.Month}, năm {today.Year}");
         }
     }
 }
