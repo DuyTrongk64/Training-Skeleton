@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|c:\\users\\admin\\documents\\training skeleton\\3. class, object\\3.class_obj\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|c:\\users\\admin\\documents\\training skeleton\\3. class, object\\3.class_obj\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|solutionrelative:tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|c:\\users\\admin\\documents\\training skeleton\\3. class, object\\3.class_obj\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|solutionrelative:teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|c:\\users\\admin\\documents\\training skeleton\\3. class, object\\3.class_obj\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|c:\\users\\admin\\documents\\training skeleton\\3. class, object\\3.class_obj\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7415AD13-7FD2-4DC5-BC9D-29BBD1227CFC}|3.Class_Obj.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 440,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Project.cs",
+              "RelativeToolTip": "Project.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:23:40.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Teacher.cs",
+              "RelativeDocumentMoniker": "Teacher.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Teacher.cs",
+              "RelativeToolTip": "Teacher.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBCwBgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:22:49.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:22:25.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Tool.cs",
+              "RelativeDocumentMoniker": "Tool.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Tool.cs",
+              "RelativeToolTip": "Tool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:28:39.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Employee.cs",
+              "RelativeToolTip": "Employee.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA2wBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:22:00.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
