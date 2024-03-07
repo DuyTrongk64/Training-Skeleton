@@ -14,155 +14,41 @@ namespace Collection
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            List<int> numberList;
-            string number;
-            bool check_num;
-
             Console.WriteLine("2.1. List");
             Console.WriteLine("2.1.1. Input: None\r\nTạo 1 danh sách số int\r\nThêm vào danh sách 10 số bất kỳ\r\nIn kết quả ra màn hình và trả về danh sách vừa tạo");
-            Console.Write("Kết quả: ");
-            numberList = Tool.crateList();
-            new List1(numberList);
+            new List1();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.2. Input: danh sách 10 số bất kỳ\r\nSắp xếp danh sách theo thứ tự tăng dần, in kết quả ra màn hình");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-            Console.Write("\nKết quả: ");
-            new List2(numberList);
+            new List2();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.3. Input: danh sách 10 số bất kỳ\r\nĐảo ngược vị trí các số trong danh sách, in kết quả ra màn hình");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-            Console.Write("\nKết quả: ");
-            new List3(numberList);
+            new List3();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.4. Input: danh sách 10 số bất kỳ và 1 số (X)\r\nBỏ đi các số nhỏ hơn X khỏi danh sách, in kết quả ra màn hình");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-
-            do
-            {
-                Console.Write("\nNhập số: ");
-                number = Console.ReadLine();
-                check_num = Tool.checkNumber(number);
-            } while (!check_num);
-            Console.Write("\nKết quả: ");
-            new List4(numberList, number);
+            new List4();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.5. Input: danh sách 10 số bất kỳ và 1 số (X)\r\nBỏ đi các số chia hết cho X khỏi danh sách, in kết quả ra màn hình");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-
-            do
-            {
-                Console.Write("\nNhập số: ");
-                number = Console.ReadLine();
-                check_num = Tool.checkNumber(number);
-                if (check_num && int.Parse(number) == 0)
-                {
-                    Console.WriteLine("Vui lòng nhập số khác 0!");
-                }
-            } while (!check_num || int.Parse(number) == 0);
-            Console.Write("\nKết quả: ");
-            new List5(numberList, number);
+            new List5();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.6. Input: danh sách 10 số bất kỳ và 1 số (X)\r\nVới mỗi số trong danh sách, nếu nhỏ hơn X thì cộng với X\r\nIn kết quả ra màn hình");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-
-            do
-            {
-                Console.Write("\nNhập số: ");
-                number = Console.ReadLine();
-                check_num = Tool.checkNumber(number);
-            } while (!check_num);
-            Console.Write("\nKết quả: ");
-            new List6(numberList, number);
+            new List6();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.7. Input: danh sách 10 số bất kỳ và 1 số lớn hơn 0 (X)\r\nIn X số cuối ra màn hình");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-
-            do
-            {
-                Console.Write("\nNhập số: ");
-                number = Console.ReadLine();
-                check_num = Tool.checkNumber(number);
-                if (check_num && int.Parse(number) <= 0)
-                {
-                    Console.WriteLine("Vui lòng nhập lớn hơn 0!");
-                }
-            } while (!check_num || int.Parse(number) <= 0);
-            Console.Write("\nKết quả: ");
-            new List7(numberList, number);
+            new List7();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.8. Input: danh sách 10 số bất kỳ và 1 số lớn hơn 0 (X)\r\nIn X số cuối ra màn hình theo chiều ngược lại");
-            numberList = Tool.crateList();
-            Console.Write("Chuỗi: ");
-            foreach (int num in numberList)
-            {
-                Console.Write(num + " ");
-            }
-
-            do
-            {
-                Console.Write("\nNhập số: ");
-                number = Console.ReadLine();
-                check_num = Tool.checkNumber(number);
-                if (check_num && int.Parse(number) <= 0)
-                {
-                    Console.WriteLine("Vui lòng nhập lớn hơn 0!");
-                }
-            } while (!check_num || int.Parse(number) <= 0);
-            Console.Write("\nKết quả: ");
-            new List8(numberList, number);
+            new List8();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.1.9. Input: 1 số lớn hơn 0 (X)\r\nin ra dãy (tối đa 10 giá trị) số thuộc dãy fibonaci < số nhập vào");
-            numberList = Tool.crateList();
-            do
-            {
-                Console.Write("\nNhập số: ");
-                number = Console.ReadLine();
-                check_num = Tool.checkNumber(number);
-                if (check_num && int.Parse(number) <= 0)
-                {
-                    Console.WriteLine("Vui lòng nhập lớn hơn 0!");
-                }
-            } while (!check_num || int.Parse(number) <= 0);
-            Console.Write("\nKết quả: ");
-            new List9(number);
+            new List9();
             Console.WriteLine("\n");
 
             Console.WriteLine("2.2. Dictionary");

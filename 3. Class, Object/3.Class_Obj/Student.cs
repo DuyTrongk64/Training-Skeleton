@@ -15,6 +15,7 @@ namespace Class_Obj
             Major = major;
         }
 
+        public string major { get { return Major; } }
         public new void ShowInfo()
         {
             base.ShowInfo();

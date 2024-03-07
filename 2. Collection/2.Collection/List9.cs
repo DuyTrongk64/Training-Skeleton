@@ -26,9 +26,23 @@ namespace Collection
             return fibonacciList;
         }
 
-        public List9(string numberX)
+        public List9()
         {
             List<int> fibonacciList = GenerateFibonacciList();
+            string numberX;
+            bool check_num;
+
+            do
+            {
+                Console.Write("\nNhập số: ");
+                numberX = Console.ReadLine();
+                check_num = Tool.checkNumber(numberX);
+                if (check_num && int.Parse(numberX) == 0)
+                {
+                    Console.WriteLine("Vui lòng nhập số khác 0!");
+                }
+            } while (!check_num || int.Parse(numberX) == 0);
+            Console.Write("\nKết quả: ");
 
             int number = int.Parse(numberX);
             for(int i = 0;i < fibonacciList.Count; i++)

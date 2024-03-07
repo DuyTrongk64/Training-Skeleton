@@ -13,6 +13,11 @@ namespace Class_Obj
             try
             {
                 int num = int.Parse(number);
+                if (num <= 0)
+                {
+                    Console.WriteLine("Vui lòng nhập số >0");
+                    return false;
+                }
                 return true;
             }
             catch (FormatException)
@@ -66,5 +71,7 @@ namespace Class_Obj
                 return false;
             }
         }
+
+
     }
 }

@@ -15,6 +15,9 @@ namespace Class_Obj
             Subject = subject;
         }
 
+        public string subject
+        { get { return Subject; } }
+
         public new void ShowInfo()
         {
             Console.WriteLine($"Tôi là Giáo Viên, {Age} tuổi, tên là {Name}.");

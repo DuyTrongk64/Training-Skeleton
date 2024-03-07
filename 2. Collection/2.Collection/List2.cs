@@ -8,13 +8,24 @@ namespace Collection
 {
     internal class List2
     {
-        public List2(List<int> numberList)
+        public List2()
         {
+            List<int> numberList;
+            string number;
+            bool check_num;
+            numberList = Tool.crateList();
+            Console.Write("Chuỗi: ");
+            foreach (int num in numberList)
+            {
+                Console.Write(num + " ");
+            }
+            Console.Write("\nKết quả: ");
+
             numberList.Sort();
 
-            foreach (int number in numberList)
+            foreach (int num in numberList)
             {
-                Console.Write(number + " ");
+                Console.Write(num + " ");
             }
         }
     }
