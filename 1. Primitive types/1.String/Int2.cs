@@ -22,7 +22,7 @@ namespace PrimitiveTypes
             } while (!check_num);
             Console.Write("Kết quả: ");
 
-            Int1 int1 = new Int1();   
+               
             int num = int.Parse(number);
             Console.WriteLine(Math.Abs(num));
         }

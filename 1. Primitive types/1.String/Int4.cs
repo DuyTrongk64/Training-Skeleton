@@ -33,7 +33,7 @@ namespace PrimitiveTypes
 
             Console.Write("Kết quả: ");
 
-            Int1 int1 = new Int1();
+            
             int num1 = int.Parse(number1);
             int num2 = int.Parse(number2);
             Console.WriteLine(num1 % num2);

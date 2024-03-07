@@ -10,9 +10,24 @@ namespace PrimitiveTypes
 {
     internal class Dec1
     {
-        public Dec1(string input)
+        public Dec1()
         {
-
+            int check = 0;
+            bool check_num;
+            string input;
+            string number;
+            do
+            {
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                check = Tool.CheckString(input);
+                if (check == 1)
+                {
+                    Console.WriteLine("Chuỗi null, xin vui lòng nhập lại!");
+                }
+            }
+            while (check == 1);
+            Console.Write("Kết quả: ");
             NumberStyles style = NumberStyles.AllowDecimalPoint | NumberStyles.AllowThousands;
             CultureInfo culture = CultureInfo.InvariantCulture;
 

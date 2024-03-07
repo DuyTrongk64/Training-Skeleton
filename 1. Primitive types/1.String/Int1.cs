@@ -22,7 +22,11 @@ namespace PrimitiveTypes
             } while (!check_num);
             Console.Write("Kết quả: ");
             int num = int.Parse(number);
-            if (num <= 0) Console.WriteLine("Số <=0");
+            if (num <= 0)
+            {
+                Console.WriteLine("Số <=0");
+                return;
+            }
 
             if (num % 2 == 0) Console.WriteLine("Số chẵn");
             else Console.WriteLine("Số lẻ");

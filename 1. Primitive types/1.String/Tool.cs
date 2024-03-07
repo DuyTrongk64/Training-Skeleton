@@ -105,5 +105,24 @@ namespace PrimitiveTypes
                     return "";
             }
         }
+
+        public static bool checkDecmial(string input)
+        {
+            try
+            {
+                decimal decimalNumber = decimal.Parse(input);
+                return true;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Định dạng không hợp lệ. Hãy nhập một số decimal.");
+                return false;
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("Số quá lớn hoặc quá nhỏ để được biểu diễn bởi kiểu decimal. Hãy nhập một số decimal.");
+                return false;
+            }
+        }
     }
 }

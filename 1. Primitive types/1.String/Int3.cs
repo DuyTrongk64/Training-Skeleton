@@ -10,9 +10,7 @@ namespace PrimitiveTypes
     {
         public Int3()
         {
-            int check = 0;
             bool check_num;
-            string input;
             string number;
             do
             {
@@ -22,7 +20,7 @@ namespace PrimitiveTypes
             } while (!check_num);
             Console.Write("Kết quả: ");
 
-            Int1 int1 = new Int1();
+            
             int num = int.Parse(number);
             if (num <= 0) Console.WriteLine("Số <=0");
             else

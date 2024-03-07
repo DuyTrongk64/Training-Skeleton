@@ -9,8 +9,21 @@ namespace PrimitiveTypes
 {
     internal class Date3
     {
-        public Date3(string inputDate)
+        public Date3()
         {
+            int check = 0;
+            bool check_num;
+            string inputDate;
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                inputDate = Console.ReadLine();
+
+                check_num = Tool.checkDate(inputDate);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
+
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime nextDay = date.AddDays(1);

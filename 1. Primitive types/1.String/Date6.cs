@@ -8,8 +8,20 @@ namespace PrimitiveTypes
 {
     internal class Date6
     {
-        public Date6(string inputDate)
+        public Date6()
         {
+            int check = 0;
+            bool check_num;
+            string inputDate;
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                inputDate = Console.ReadLine();
+
+                check_num = Tool.checkDate(inputDate);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 string format1 = date.ToString("dd/MM/yyyy");

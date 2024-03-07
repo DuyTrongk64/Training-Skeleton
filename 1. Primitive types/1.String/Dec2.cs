@@ -8,27 +8,20 @@ namespace PrimitiveTypes
 {
     internal class Dec2
     {
-        public bool checkDecmial(string input)
+        public Dec2()
         {
-            try
+            int check = 0;
+            bool check_num;
+            string input;
+            string number;
+            do
             {
-                decimal decimalNumber = decimal.Parse(input);
-                return true;
+                Console.Write("Nhập chuỗi: ");
+                input = Console.ReadLine();
+                check_num = Tool.checkDecmial(input);
             }
-            catch (FormatException)
-            {
-                Console.WriteLine("Định dạng không hợp lệ. Hãy nhập một số decimal.");
-                return false;
-            }
-            catch (OverflowException)
-            {
-                Console.WriteLine("Số quá lớn hoặc quá nhỏ để được biểu diễn bởi kiểu decimal. Hãy nhập một số decimal.");
-                return false;
-            }
-        }
-        public Dec2() { }
-        public Dec2(string input)
-        {
+            while (!check_num);
+            Console.Write("Kết quả: ");
             decimal decimalNumber = decimal.Parse(input);
 
             string formattedNumber = decimalNumber.ToString("#,##0.00");

@@ -9,8 +9,20 @@ namespace PrimitiveTypes
 {
     internal class Date7
     {
-        public Date7(string inputDate)
+        public Date7()
         {
+            int check = 0;
+            bool check_num;
+            string inputDate;
+            do
+            {
+                Console.Write("Nhập ngày: ");
+                inputDate = Console.ReadLine();
+
+                check_num = Tool.checkDate(inputDate);
+            }
+            while (!check_num);
+            Console.Write("Kết quả: ");
             if (DateTime.TryParse(inputDate, out DateTime date))
             {
                 DateTime tenDaysAgo = date.AddDays(-10);

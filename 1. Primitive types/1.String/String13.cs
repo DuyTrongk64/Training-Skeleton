@@ -49,7 +49,7 @@ namespace PrimitiveTypes
                     break;
 
                 case 4:
-                    Int1 int1 = new Int1();
+                    
                     int num = int.Parse(number);
                     if (num <=0)
                     {

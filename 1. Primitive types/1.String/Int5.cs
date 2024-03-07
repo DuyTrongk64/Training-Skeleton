@@ -8,11 +8,24 @@ namespace PrimitiveTypes
 {
     internal class Int5
     {
-        public Int5(string number)
+        public Int5()
         {
-            Int1 int1 = new Int1();
+            string number;
+            bool check_num;
+            do
+            {
+                Console.Write("Nhập số: ");
+                number = Console.ReadLine();
+                check_num = Tool.checkNumber(number);
+            } while (!check_num);
+            Console.Write("Kết quả: ");
+            
             int num = int.Parse(number);
-            if (num <= 0) Console.WriteLine("Số <=0");
+            if (num <= 0)
+            {
+                Console.WriteLine("Số <=0");
+                return;
+            }
 
             if (num < 2 ) Console.WriteLine("Không phải số nguyên tố");
             else
