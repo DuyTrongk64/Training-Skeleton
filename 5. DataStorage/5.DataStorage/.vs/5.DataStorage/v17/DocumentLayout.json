@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\5.datastorage\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\5.datastorage\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\5.datastorage\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|solutionrelative:output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\5.datastorage\\database\\create database.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|solutionrelative:database\\create database.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\5.datastorage\\database\\create database.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{1FCB84FE-DEA3-409F-9EB3-16E7460E81A3}|5.DataStorage.csproj|solutionrelative:database\\create database.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 440,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 63,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create Database.sql ",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\database\\Create Database.sql",
+              "RelativeDocumentMoniker": "database\\Create Database.sql",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\database\\Create Database.sql",
+              "RelativeToolTip": "database\\Create Database.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-07T10:43:19.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InPut.txt",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\InPut.txt",
+              "RelativeDocumentMoniker": "InPut.txt",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\InPut.txt",
+              "RelativeToolTip": "InPut.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-07T07:42:40.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OutPut.txt",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\OutPut.txt",
+              "RelativeDocumentMoniker": "OutPut.txt",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\OutPut.txt",
+              "RelativeToolTip": "OutPut.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-07T07:41:25.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\5.DataStorage\\Project.cs",
+              "RelativeToolTip": "Project.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T07:34:13.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

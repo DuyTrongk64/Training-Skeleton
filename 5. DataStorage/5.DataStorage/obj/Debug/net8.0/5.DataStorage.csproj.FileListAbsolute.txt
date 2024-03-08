@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\bin\Debug\net8.0\5.DataStorage.exe
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\bin\Debug\net8.0\5.DataStorage.deps.json
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\bin\Debug\net8.0\5.DataStorage.runtimeconfig.json
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\bin\Debug\net8.0\5.DataStorage.dll
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\bin\Debug\net8.0\5.DataStorage.pdb
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.AssemblyInfo.cs
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.sourcelink.json
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.dll
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\refint\5.DataStorage.dll
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.pdb
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\5.DataStorage.genruntimeconfig.cache
+C:\Users\admin\Documents\Training Skeleton\5. DataStorage\5.DataStorage\obj\Debug\net8.0\ref\5.DataStorage.dll
