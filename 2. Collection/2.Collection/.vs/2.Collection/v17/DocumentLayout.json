@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|c:\\users\\admin\\documents\\training skeleton\\2. collection\\2.collection\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DDBA5-7443-4825-8FC3-98B4A273BDB9}|2.Collection.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 440,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Project.cs",
               "RelativeDocumentMoniker": "Project.cs",
@@ -68,119 +72,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "List9.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List9.cs",
-              "RelativeDocumentMoniker": "List9.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List9.cs",
-              "RelativeToolTip": "List9.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAIwCEAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Tool.cs",
+              "RelativeDocumentMoniker": "Tool.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\Tool.cs",
+              "RelativeToolTip": "Tool.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFUAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:33:10.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "List8.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List8.cs",
-              "RelativeDocumentMoniker": "List8.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List8.cs",
-              "RelativeToolTip": "List8.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA4wA0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:32:29.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "List7.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List7.cs",
-              "RelativeDocumentMoniker": "List7.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List7.cs",
-              "RelativeToolTip": "List7.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAmwAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:32:08.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "List6.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List6.cs",
-              "RelativeDocumentMoniker": "List6.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List6.cs",
-              "RelativeToolTip": "List6.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAmwAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:31:19.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "List5.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List5.cs",
-              "RelativeDocumentMoniker": "List5.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List5.cs",
-              "RelativeToolTip": "List5.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:30:12.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "List4.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List4.cs",
-              "RelativeDocumentMoniker": "List4.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List4.cs",
-              "RelativeToolTip": "List4.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAIBBwAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:28:31.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "List3.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List3.cs",
-              "RelativeDocumentMoniker": "List3.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List3.cs",
-              "RelativeToolTip": "List3.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:27:04.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "List2.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List2.cs",
-              "RelativeDocumentMoniker": "List2.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List2.cs",
-              "RelativeToolTip": "List2.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA4wAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:24:58.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "List1.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List1.cs",
-              "RelativeDocumentMoniker": "List1.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List1.cs",
-              "RelativeToolTip": "List1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:23:38.778Z",
+              "WhenOpened": "2024-03-08T11:12:33.44Z",
               "EditorCaption": ""
             },
             {
@@ -190,6 +90,114 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List9.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List9.cs",
+              "RelativeDocumentMoniker": "List9.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List9.cs",
+              "RelativeToolTip": "List9.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:33:10.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List8.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List8.cs",
+              "RelativeDocumentMoniker": "List8.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List8.cs",
+              "RelativeToolTip": "List8.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA4wA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:32:29.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List7.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List7.cs",
+              "RelativeDocumentMoniker": "List7.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List7.cs",
+              "RelativeToolTip": "List7.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:32:08.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List6.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List6.cs",
+              "RelativeDocumentMoniker": "List6.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List6.cs",
+              "RelativeToolTip": "List6.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:31:19.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "List5.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List5.cs",
+              "RelativeDocumentMoniker": "List5.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List5.cs",
+              "RelativeToolTip": "List5.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:30:12.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "List4.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List4.cs",
+              "RelativeDocumentMoniker": "List4.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List4.cs",
+              "RelativeToolTip": "List4.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBBwAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:28:31.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "List3.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List3.cs",
+              "RelativeDocumentMoniker": "List3.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List3.cs",
+              "RelativeToolTip": "List3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:27:04.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List2.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List2.cs",
+              "RelativeDocumentMoniker": "List2.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List2.cs",
+              "RelativeToolTip": "List2.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA4wAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:24:58.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "List1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List1.cs",
+              "RelativeDocumentMoniker": "List1.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\2. Collection\\2.Collection\\List1.cs",
+              "RelativeToolTip": "List1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T06:23:38.778Z"
             }
           ]
         },

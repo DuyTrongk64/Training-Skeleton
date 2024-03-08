@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Project.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\3. Class, Object\\3.Class_Obj\\Project.cs",
               "RelativeToolTip": "Project.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAywB4AAAAlAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAgwJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T09:23:40.916Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Teacher.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAQwBIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T09:22:49.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T09:22:49.998Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Student.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAcwBEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T09:22:25.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T09:22:25.711Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Tool.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAiwEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T09:28:39.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T09:28:39.521Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Employee.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAwwBwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T09:22:00.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T09:22:00.361Z"
             }
           ]
         },

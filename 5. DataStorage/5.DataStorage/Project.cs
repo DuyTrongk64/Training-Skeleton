@@ -8,7 +8,7 @@ namespace DataStorage
 {
     internal class Project
     {
-        
+
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;

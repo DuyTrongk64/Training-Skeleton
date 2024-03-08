@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\database\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\database\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|solutionrelative:class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\database\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|c:\\users\\admin\\documents\\training skeleton\\5. datastorage\\database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{835313D3-DE4D-4F98-84E8-216C0F59A486}|Database.csproj|solutionrelative:database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 440,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Project.cs",
+              "RelativeToolTip": "Project.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T06:35:02.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T06:32:46.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Class.cs",
+              "RelativeDocumentMoniker": "Class.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Class.cs",
+              "RelativeToolTip": "Class.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T06:32:07.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Database.csproj",
+              "RelativeDocumentMoniker": "Database.csproj",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Training Skeleton\\5. DataStorage\\Database\\Database.csproj",
+              "RelativeToolTip": "Database.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-08T06:30:56.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

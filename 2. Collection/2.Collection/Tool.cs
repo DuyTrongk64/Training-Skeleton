@@ -88,42 +88,42 @@ namespace Collection
             Dictionary<int, string> studentDictionary = new Dictionary<int, string>();
 
             // Thêm vào Dictionary 5 giá trị
-            studentDictionary.Add(1001, "Nguyen Van A");
-            studentDictionary.Add(1002, "Tran Thi B");
-            studentDictionary.Add(1003, "Hoang Van C");
-            studentDictionary.Add(1004, "Le Thi D");
-            studentDictionary.Add(1005, "Pham Van E");
+            //studentDictionary.Add(1001, "Nguyen Van A");
+            //studentDictionary.Add(1002, "Tran Thi B");
+            //studentDictionary.Add(1003, "Hoang Van C");
+            //studentDictionary.Add(1004, "Le Thi D");
+            //studentDictionary.Add(1005, "Pham Van E");
 
-            //string number;
-            //string name;
-            //int id;
-            //bool check;
-            //Console.WriteLine("Nhập Dictionary: \n");
-            //for(int i = 0; i < 5; i++)
-            //{
-            //    Console.WriteLine($"Nhập sinh viên thứ {i + 1}: ");
-            //    do
-            //    {
-            //        Console.Write("Nhập MSSV: ");
-            //        number = Console.ReadLine();
-            //        check = Tool.checkNumber(number);
-            //        if (check && int.Parse(number) <= 0)
-            //        {
-            //            Console.WriteLine("Vui lòng nhập số lớn hơn 0!");
-            //        }
-            //    } while (!check || int.Parse(number) <= 0);
+            string number;
+            string name;
+            int id;
+            bool check;
+            Console.WriteLine("Nhập Dictionary: \n");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Nhập sinh viên thứ {i + 1}: ");
+                do
+                {
+                    Console.Write("Nhập MSSV: ");
+                    number = Console.ReadLine();
+                    check = Tool.checkNumber(number);
+                    if (check && int.Parse(number) <= 0)
+                    {
+                        Console.WriteLine("Vui lòng nhập số lớn hơn 0!");
+                    }
+                } while (!check || int.Parse(number) <= 0);
 
-            //    id = int.Parse(number);
+                id = int.Parse(number);
 
-            //    do
-            //    {
-            //        Console.Write("Nhập tên sinh viên: ");
-            //        name = Console.ReadLine();
-            //        check = Tool.CheckString(name);
-            //    } while (!check);
+                do
+                {
+                    Console.Write("Nhập tên sinh viên: ");
+                    name = Console.ReadLine();
+                    check = Tool.CheckString(name);
+                } while (!check);
 
-            //    studentDictionary.Add(id, name);
-            //}
+                studentDictionary.Add(id, name);
+            }
 
 
 
